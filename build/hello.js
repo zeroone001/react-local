@@ -1,7 +1,7 @@
 /**
  * Created by smzdm on 16/7/11.
  */
-ReactDOM.render(
-    <h1>Hello, world!</h1>,
+React.render(
+    React.createElement("h1", null, "Hello, world!"),
     document.getElementById('example')
 );
