@@ -1,6 +1,19 @@
 /**
  * Created by liuyongsheng on 16/7/12.
  */
+
+
+
+var Comment = React.createClass({
+    render:function(){
+        return(
+            <div className="comment">
+                <h2 className="commentAuthor">{this.props.author}</h2>
+                {this.props.children}
+            </div>
+        );
+    }
+});
 var CommentBox = React.createClass({
     //在组件的生命周期中只执行一次，用于设置组件的初始化state
     getInitialState: function () {
@@ -26,7 +39,10 @@ var CommentBox = React.createClass({
         this.loadCommentsFromServer();
         setInterval(this.loadCommentsFromServer, this.props.pollInterval);
     },
-    handleCommentSubmit:function(){
+    handleCommentSubmit:function(comment){
+        var comments = this.state.data;
+        var newComments = comments.concat([comment]);
+        this.setState({data:newComments});
         $.ajax({
             url: this.props.url,
             dataType: 'json',
@@ -45,7 +61,7 @@ var CommentBox = React.createClass({
             <div className="commentBox">
                 <h1>Comments</h1>
                 <CommentList data={this.state.data}/>
-                <CommentForm onCommentSubmit={this.handleCommentSubmit()} />
+                <CommentForm onCommentSubmit={this.handleCommentSubmit} />
             </div>
         );
     }
@@ -74,9 +90,19 @@ var CommentForm = React.createClass({
     }
 });
 var CommentList = React.createClass({
+
     render:function(){
+        var commentNodes = this.props.data.map(function(comment){
+            return(
+                <Comment author={comment.author}>
+                    {comment.text}
+                </Comment>
+            );
+        });
         return(
-            <div className></div>
+            <div className="commentList">
+                {commentNodes}
+            </div>
         );
     }
 });
