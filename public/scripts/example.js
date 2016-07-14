@@ -65,6 +65,7 @@ var CommentBox = React.createClass({
       }.bind(this)
     });
   },
+
   getInitialState: function() {
     return {data: []};
   },
