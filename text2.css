@@ -1,0 +1,97 @@
+
+#module_3570 h2 img{
+    width: 200px;
+}
+#module_3570{
+    height:830px;
+    padding: 0 15%;
+    position: relative;
+}
+#module_3570 h1{
+    padding-top: 0px;
+}
+#module_3570 h2 {
+    position: absolute;
+    left: 50%;
+    top: 435px;
+    margin-left: -100px;
+    cursor: pointer;
+}
+#Australia_list{
+    width: 1050px;
+    margin: 0 auto;
+    overflow: hidden;
+    height: 60px;
+    font-size: 20px;
+    color: white;
+    line-height: 60px;
+    background-color: #424242;
+    padding-left: 135px;
+}
+#Australia_list li{
+    float: left;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-top: 12px;
+}
+.wrap section{
+    background-color: #f3ecdb;
+}
+#Australia_list li.ban-click a{
+    color: #afafaf;
+}
+#Australia_list li.ban-click a:hover{
+    color: #afafaf;
+}
+#Australia_list li.show-this {
+    background-color: #fff;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+#Australia_list li.show-this a,#Australia_list li.show-this a:hover{
+    color: black;
+}
+
+#Australia_list li a{
+    color: #fff;
+}
+
+#Australia_list li a:hover{
+    color: #fff;
+}
+#module_3571,#module_3573,#module_3574,#module_3586{
+    position: relative;
+    top: -312px;
+}
+#comments{
+    position: relative;
+    top: -312px;
+    background-color: #fff;
+    padding-left: 0;
+    padding-right: 0;
+}
+.co_img{
+    margin-bottom: 70px;
+}
+.ac_text,#ac_text{
+    max-width: 1050px;
+    margin: 0 auto;
+    min-height: 210px;
+    background-color: #fff;
+    font-size: 14px;
+    color: #333333;
+    padding-left: 90px;
+    padding-right: 100px;
+    padding-top: 50px;
+    line-height: 28px;
+}
+#activity{
+    text-align: center;
+}
+#activity img{
+    width: 100%;
+    max-width: 1050px;
+}
+.ac_text a,#ac_text a{
+    color: #0c6ca3;
+}

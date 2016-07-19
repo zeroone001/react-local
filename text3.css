@@ -1,0 +1,120 @@
+#module_3576 h2 img{
+    width: 200px;
+}
+#module_3576{
+    height:830px;
+    padding: 0 15%;
+    position: relative;
+}
+#module_3576 h1{
+    padding-top: 0px;
+}
+#module_3576 h2 {
+    position: absolute;
+    left: 50%;
+    top: 435px;
+    margin-left: -100px;
+    cursor: pointer;
+}
+#Australia_list{
+    max-width: 1050px;
+    margin: 0 auto;
+    overflow: hidden;
+    height: 60px;
+    font-size: 20px;
+    color: white;
+    line-height: 60px;
+    background-color: #424242;
+    padding-left: 135px;
+
+}
+#Australia_list li{
+    float: left;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-top: 12px;
+}
+.wrap section{
+    background-color: #f3ecdb;
+}
+#Australia_list li.ban-click a{
+    color: #afafaf;
+}
+#Australia_list li.ban-click a:hover{
+    color: #afafaf;
+}
+#Australia_list li.show-this {
+    background-color: #fff;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+#Australia_list li.show-this a,#Australia_list li.show-this a:hover{
+    color: black;
+}
+
+#Australia_list li a{
+    color: #fff;
+}
+
+#Australia_list li a:hover{
+    color: #fff;
+}
+#module_3577,#module_3578,#module_3579,#module_3580,#module_3581,#module_3582,#module_3583{
+    position: relative;
+    top: -312px;
+}
+#comments{
+    position: relative;
+    top: -312px;
+    background-color: #fff;
+    padding-left: 0;
+    padding-right: 0;
+}
+.co_img{
+    margin-bottom: 70px;
+}
+div#nav-lift{
+    width: 138px;
+    padding: 0;
+    border: none;
+    padding-bottom: 20px;
+    background-color: #3d9dd7;
+}
+#nav-lift li{
+    background-color: #49c5dd;
+    border-bottom: 1px solid #3d9dd7;
+    margin-bottom: 0px;
+    height: 35px;
+    line-height: 35px;
+}
+#nav-lift .nav_headimg{
+    position: absolute;
+    top: -139px;
+    left: -11px;
+}
+#Pharmacy,#Amcal,#Direct,#Kiwi,#RoyYoung,#PharmacyFour{
+    max-width: 1050px;
+    margin: 0 auto;
+    background: #fff;
+}
+.ct-body{
+    padding-left: 87px;
+    padding-right: 107px;
+}
+.ct-head{
+    text-align: center;
+}
+.ct-img{
+    text-align: center;
+    padding-left: 53px;
+    padding-right: 72px;
+}
+#Direct{
+    padding-top: 31px;
+}
+.ct-img img{
+    width: 100%;
+}
+.co_img img{
+    width: 100%;
+}

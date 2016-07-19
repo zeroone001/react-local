@@ -201,7 +201,7 @@ var Checkbox = React.createClass({
 
     render() {
         var state = this.state;
-        var style = {border:'1px solid red',display:'inline-block',width:100,height:100}
+        var style = {border:'1px solid red',display:'inline-block',width:100,height:100};
         if(state.checked){
             style.backgroundColor='red';
         }
