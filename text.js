@@ -25,8 +25,19 @@ $(function(){
         $('#comments').find('.title_line').remove();
         $('#comments').find('h2').append(comment_str);
     }
+    function logoClick(){
+        $('.hotlist').each(function(index,ele){
+            var arr = ['http://cn.pharmacyonline.com.au/','http://cn.amcal.com.au/','http://cn.pharmacydirect.co.nz/','http://cn.kiwidiscovery.co.nz/','http://cn.kiwidiscovery.co.nz/'];
+            var srcpng = $(ele).find('h2 img').attr('src');
+            var str = '<a href="'+arr[index]+'" target="_blank"><img src="'+srcpng+'" title="" alt="" /></a>';
+            $(ele).find('h2 img').remove();
+            $(ele).find('h2').append(str);
+        });
+    }
+
     registered();
     aboutNav();
     toTop();
     Comments();
+    logoClick();
 });

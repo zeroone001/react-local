@@ -95,3 +95,91 @@
 .ac_text a,#ac_text a{
     color: #0c6ca3;
 }
+.business-intro{
+    margin:0 auto;
+    max-width:1050px;
+}
+.business-intro img{
+    width:100%;
+}
+#module_3586 .ac_text{
+    padding-top:0;
+}
+@media (max-width: 480px){
+    #module_3570{
+        padding: 0;
+        height: 640px;
+    }
+    #module_3570 h2{
+        top: 335px;
+    }
+    #module_3570 h1{
+        padding-top: 30px;
+    }
+    #module_3571, #module_3573, #module_3574, #module_3586{
+        top: -240px;
+    }
+    .ac_text, #ac_text{
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 25px;
+    }
+    #module_3574{
+        top: -244px;
+    }
+    #module_3586{
+        top: -248px;
+    }
+    #comments{
+        top: -250px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .co_img img{
+        width: 100%;
+    }
+    #Australia_list{
+        width: 100%;
+        font-size: 14px;
+        padding-left: 25px;
+    }
+    #Australia_list li{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .business-intro{
+        background-color: #fff;
+    }
+    .ac_head{
+        background-color: #fff;
+    }
+}
+@media (max-width: 400px){
+    #Australia_list{
+        padding-left: 5px;
+    }
+
+}
+@media (max-width: 360px) {
+    #Australia_list li {
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+    #module_3574{
+        top: -246px;
+    }
+    #module_3586 {
+        top: -251px;
+    }
+}
+@media (max-width: 320px) {
+    #Australia_list{
+        padding-left: 18px;
+        font-size: 12px;
+    }
+    #Australia_list li{
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+}
+
