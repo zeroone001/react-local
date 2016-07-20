@@ -1,3 +1,4 @@
+<style>
 #module_3563 h2 img{
     width: 200px;
 }
@@ -92,7 +93,7 @@ div#nav-lift{
 #nav-lift li{
     background-color: #49c5dd;
     border-bottom: 1px solid #3d9dd7;
-    margin-bottom: 0;
+    margin-bottom: 0px;
     height: 35px;
     line-height: 35px;
 }
@@ -114,13 +115,19 @@ div#nav-lift{
 @media (max-width: 480px){
     #module_3563{
         padding: 0;
-        height: 640px;
+        height: 460px;
+        background-size: 200% !important;
+        background-position: center top !important;
     }
     #module_3563 h2{
-        top: 335px;
+        top: 170px;
+        margin-left: -75px;
     }
     #module_3563 h1{
-        padding-top: 30px;
+
+    }
+    #module_3563 h2 img {
+        width: 150px;
     }
     #module_3564,#module_3565,#module_3566,#module_3567,#module_3568,#module_3584,#module_3585{
         top: -240px;
@@ -164,7 +171,31 @@ div#nav-lift{
     #Australia_list{
         padding-left: 5px;
     }
-
+}
+@media (max-width: 375px) {
+    #module_3563{
+        height: 442px;
+    }
+    #module_3563 h2{
+        top: 154px;
+    }
+}
+@media (max-width: 360px) {
+    #module_3563 {
+        height: 434px;
+    }
+    #module_3563 h2 {
+        top: 146px;
+    }
+}
+@media (max-width: 320px) {
+    #module_3563{
+        background-size: 230% !important;
+        height: 438px;
+    }
+    #module_3563 h2 {
+        top: 150px;
+    }
 }
 @media (max-width: 360px) {
     #Australia_list li {
@@ -188,4 +219,4 @@ div#nav-lift{
         padding-right: 5px;
     }
 }
-
+</style>

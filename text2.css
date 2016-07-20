@@ -1,4 +1,4 @@
-
+<style>
 #module_3570 h2 img{
     width: 200px;
 }
@@ -108,14 +108,18 @@
 @media (max-width: 480px){
     #module_3570{
         padding: 0;
-        height: 640px;
+        height: 460px;
+        background-size: 200% !important;
+        background-position: center top !important;
     }
     #module_3570 h2{
-        top: 335px;
+        top: 170px;
+        margin-left: -75px;
     }
-    #module_3570 h1{
-        padding-top: 30px;
+    #module_3570 h2 img {
+        width: 150px;
     }
+
     #module_3571, #module_3573, #module_3574, #module_3586{
         top: -240px;
     }
@@ -160,6 +164,31 @@
     }
 
 }
+@media (max-width: 375px) {
+    #module_3570{
+        height: 442px;
+    }
+    #module_3570 h2{
+        top: 154px;
+    }
+}
+@media (max-width: 360px) {
+    #module_3570 {
+        height: 434px;
+    }
+    #module_3570 h2 {
+        top: 146px;
+    }
+}
+@media (max-width: 320px) {
+    #module_3570{
+        background-size: 230% !important;
+        height: 438px;
+    }
+    #module_3570 h2 {
+        top: 150px;
+    }
+}
 @media (max-width: 360px) {
     #Australia_list li {
         padding-left: 8px;
@@ -183,3 +212,5 @@
     }
 }
 
+
+</style>
