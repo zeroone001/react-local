@@ -1,2 +1,2 @@
 # react-local
-learn react and test
+learn react and bebel with webpack
