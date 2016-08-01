@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import babel from 'babel-core';
-console.log(babel);
+//console.log(babel);
 //import babel from 'babel-core';
 
 //class App extends React.Component {
