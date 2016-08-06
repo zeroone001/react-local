@@ -121,7 +121,37 @@
     是异步编程的解决方案，可以理解为是一个状态机，封装了多个内部的状态
     yield语句如果用在一个表达式中，必须放在圆括号里面。
     for ...of 循环可以自动遍历generator函数，且此时不再需要调用next方法
+    ```
+    var calc = {  
+      sumArray (items) {
+        return items.reduce(function(a, b) {
+          return a + b;
+        });
+      }
+    };
+    var numbers = {  
+      __proto__: calc,
+      numbers: [4, 6, 7],
+      sumElements() {
+        return super.sumArray(this.numbers);
+      }
+    };
+    numbers.sumElements(); // => 17
+    ```
+    能够使用super关键词访问从原型链继承下来的属性，它的存在更好的暗示了继承的属性将被使用
+    作为对象属性的generator函数
+    ```
+    let obj = {
+        * mygenerator(){
+            
+        }
+    }
+    ```
+16. promise对象
     
+    
+    
+
     
     
     
